@@ -1,16 +1,13 @@
 ---
-name: Validate
+name: Validate with RHFest
 
 on:
-  workflow_dispatch:
-  schedule:
-    - cron: "0 0 * * *" # Every day at midnight
   push:
     branches:
       - main
   pull_request:
-    branches:
-      - main
+  schedule:
+    - cron: "0 0 * * *" # Every day at midnight
 
 jobs:
   rhfest:
@@ -20,5 +17,5 @@ jobs:
       - name: ⤵️ Check out code from GitHub
         uses: actions/checkout@v4.2.2
 
-      - name: Run RHFest validation
-        uses: docker://ghcr.io/dutchdronesquad/rhfest-action:main
+      - name: 🚀 Run RHFest validation
+        uses: docker://ghcr.io/dutchdronesquad/rhfest-action:v1.0.0
