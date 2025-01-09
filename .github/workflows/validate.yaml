@@ -1,0 +1,24 @@
+---
+name: Validate
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *" # Every day at midnight
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  rhfest:
+    name: RHFest Validation
+    runs-on: ubuntu-latest
+    steps:
+      - name: ⤵️ Check out code from GitHub
+        uses: actions/checkout@v4.2.2
+
+      - name: Run RHFest validation
+        uses: dutchdronesquad/rhfest-action@main
