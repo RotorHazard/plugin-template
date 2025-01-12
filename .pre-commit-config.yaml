@@ -55,7 +55,7 @@ repos:
         types: [text]
         entry: uv run trailing-whitespace-fixer
         stages: [pre-commit, pre-push, manual]
-      - id: check-rhfest
+      - id: rhfest
         name: 🎉 Check RHFest
         language: docker_image
         entry: ghcr.io/dutchdronesquad/rhfest-action:latest
