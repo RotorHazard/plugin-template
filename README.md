@@ -1,3 +1,6 @@
+<!-- PLUGIN BADGES -->
+[![RHFest][rhfest-shield]][rhfest-url]
+
 # RotorHazard Plugin Template
 
 This is a basic template repository for creating a plugin for the RotorHazard timing platform. It is intended to be used as a starting point for creating a new plugin.
@@ -59,3 +62,6 @@ Distributed under the **MIT** License. See [`LICENSE`](LICENSE) for more informa
 [uv]: https://docs.astral.sh/uv/
 [Python]: https://www.python.org/
 [pre-commit]: https://pre-commit.com/
+
+[rhfest-shield]: https://github.com/dutchdronesquad/rh-plugin-template/actions/workflows/rhfest.yaml/badge.svg
+[rhfest-url]: https://github.com/dutchdronesquad/rh-plugin-template/actions/workflows/rhfest.yaml
