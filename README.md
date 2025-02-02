@@ -5,6 +5,9 @@
 
 This is a basic template repository for creating a plugin for the RotorHazard timing platform. It is intended to be used as a starting point for creating a new plugin.
 
+> [!WARNING]
+> If you apply this plugin template to an existing RotorHAzard plugin that uses GitHub releases, please note that the community store / plugin install manager is only compatible with published releases that also pass the [RHFest](https://github.com/dutchdronesquad/rhfest-action) checks.
+
 ## Features
 
 - **Pre-commit checks**: to run checks and tests on each commit.
