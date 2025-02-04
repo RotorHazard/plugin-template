@@ -6,7 +6,7 @@
 This is a basic template repository for creating a plugin for the RotorHazard timing platform. It is intended to be used as a starting point for creating a new plugin.
 
 > [!WARNING]
-> If you apply this plugin template to an existing RotorHazard plugin that uses GitHub releases, please note that the [community store](https://github.com/dutchdronesquad/rh-community-store) is only compatible with published releases that also pass the [RHFest](https://github.com/rotorhazard/rhfest-action) checks.
+> If you apply this plugin template to an existing RotorHazard plugin that uses GitHub releases, please note that the [community store](https://github.com/dutchdronesquad/rh-community-store) is only compatible with published releases that also pass the [RHFest](https://github.com/RotorHazard/rhfest-action) checks.
 
 ## Features
 
@@ -66,5 +66,5 @@ Distributed under the **MIT** License. See [`LICENSE`](LICENSE) for more informa
 [Python]: https://www.python.org/
 [pre-commit]: https://pre-commit.com/
 
-[rhfest-shield]: https://github.com/rotorhazard/plugin-template/actions/workflows/rhfest.yaml/badge.svg
-[rhfest-url]: https://github.com/rotorhazard/plugin-template/actions/workflows/rhfest.yaml
+[rhfest-shield]: https://github.com/RotorHazard/plugin-template/actions/workflows/rhfest.yaml/badge.svg
+[rhfest-url]: https://github.com/RotorHazard/plugin-template/actions/workflows/rhfest.yaml
