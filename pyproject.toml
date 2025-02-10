@@ -31,7 +31,6 @@ lint.ignore = [
 
   # Conflicts with the Ruff formatter
   "COM812",
-  "ISC001",
 
   # Custom ignores
   "G004",    # Allow f-string in logging

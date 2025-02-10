@@ -3,7 +3,7 @@
   "name": "Plugin Template",
   "codeowners": ["@dutchdronesquad"],
   "description": "A template plugin for creating custom plugins for the RotorHazard project.",
-  "documentation": "https://github.com/dutchdronesquad/rh-plugin-template/",
+  "documentation": "https://github.com/RotorHazard/plugin-template/",
   "required_rhapi_version": "1.0",
   "version": "1.0.0"
 }
