@@ -5,5 +5,6 @@
   "description": "A template plugin for creating custom plugins for the RotorHazard project.",
   "documentation": "https://github.com/RotorHazard/plugin-template/",
   "required_rhapi_version": "1.0",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "category": ["Other"]
 }
