@@ -32,7 +32,7 @@
       "versioning": "regex:^v(?<major>\\d+)(\\.(?<minor>\\d+)\\.(?<patch>\\d+))?$"
     },
     {
-      "matchManagers": ["github-actions", "docker"],
+      "matchManagers": ["github-actions", "dockerfile"],
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true
     }
