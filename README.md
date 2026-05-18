@@ -35,26 +35,26 @@ You need the following tools to get started:
 uv sync
 ```
 
-3. Setup the pre-commit check, you must run this inside the virtual environment
+3. Setup the prek check, you must run this inside the virtual environment
 
 ```bash
-uv run pre-commit install
+uv run prek install
 ```
 
-### Run pre-commit checks
+### Run prek checks
 
-As this repository uses the [pre-commit][pre-commit] framework, all changes
+As this repository uses the [prek][prek] framework, all changes
 are linted and tested with each commit. You can run all checks and tests
 manually, using the following command:
 
 ```bash
-uv run pre-commit run --all-files
+uv run prek run --all-files
 ```
 
 To manual run only on the staged files, use the following command:
 
 ```bash
-uv run pre-commit run
+uv run prek run
 ```
 
 ## License
@@ -64,7 +64,7 @@ Distributed under the **MIT** License. See [`LICENSE`](LICENSE) for more informa
 <!-- LINK -->
 [uv]: https://docs.astral.sh/uv/
 [Python]: https://www.python.org/
-[pre-commit]: https://pre-commit.com/
+[prek]: https://prek.j178.dev/
 
 [rhfest-shield]: https://github.com/RotorHazard/plugin-template/actions/workflows/rhfest.yaml/badge.svg
 [rhfest-url]: https://github.com/RotorHazard/plugin-template/actions/workflows/rhfest.yaml
