@@ -33,5 +33,6 @@ lint.ignore = [
   "COM812",
 
   # Custom ignores
+  "CPY001",  # Copyright headers are not required for this repository
   "G004",    # Allow f-string in logging
 ]
