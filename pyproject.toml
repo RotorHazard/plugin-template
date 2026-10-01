@@ -10,7 +10,7 @@ dependencies = []
 dev = [
   "pre-commit-hooks==6.0.0",
   "prek==0.5.4",
-  "ruff==0.15.22",
+  "ruff==0.16.10",
 ]
 
 [tool.ruff]
@@ -33,5 +33,6 @@ lint.ignore = [
   "COM812",
 
   # Custom ignores
+  "CPY001",  # Copyright headers are not required for this repository
   "G004",    # Allow f-string in logging
 ]
